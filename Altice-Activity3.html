@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Java Jam Coffee House</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Altice-Activity3.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>JavaJam Coffee House</h1>
+		</header>
+
+		<main>
+
+			<p>We are a gourmet coffee shop that serves snacks, coffee, tea, and soft drinks. Visit us to check out our:</p>
+			<ul>
+				<li>Specialty Coffee and Tea</li>
+				<li>Bagls, Muffins, and Organic Snacks</li>
+				<li>Music and Poetry Readings</li>
+				<li>Open Mic Night</li>
+			</ul>
+			<p>Enter the information below to be signed up for newsletters and coupons for our coffee shop.</p>
+			<form action="#" method="POST">
+
+				<label for="name"> Name: </label>
+				<input type="text" name="name" id="name" required placeholder="Ex. first last" size="30">
+				<label for="phone">Phone Number: </label>
+				<input type="number" name="phone" id="phone" placeholder="Ex. 1112223333">
+				<label for="email">Email: </label>
+				<input type="email" name="email" id="email" required placeholder="Ex.person@gmail.com">
+				<div class="coupons">
+					<p>Check the boxes for items you want to get coupons for:</p>
+					<label for="food">Food:</label>
+					<input type="checkbox" name="food" id="food">
+					<label for="drinks">Drinks: </label>
+					<input type="checkbox" name="drinks" id="drinks">
+				</div>
+				<div class="specDrink">
+					<p>Select your favorite specialty drink: </p>
+					<input type="radio" name="favorite" value="Just Java" id="java">
+					<label for="java">Just Java</label>
+					<input type="radio" name="favorite" value="Cafe au Lait" id="lait">
+					<label for="lait">Cafe au Lait</label>
+					<input type="radio" name="favorite" value="Iced Cappuccino" id="cappuccino">
+					<label for="cappuccino">Iced Cappuccino</label>
+				</div>
+				<div class="news">
+					<p>Select how often you would like to receive our newsletter and coupons:</p>
+					<select name="newsletter">
+						<option value="weekly">Weekly</option>
+						<option value="biweekly">Bi-Weekly</option>
+						<option value="monthly">Monthly</option>
+					</select>
+				</div>
+
+				<button type="submit">Sign Up</button>
+			</form>
+
+			<h2>Menu</h2>
+
+			<table>
+				<tr>
+					<th colspan="2">Coffee Selections</th>
+				</tr>
+				<tr class="altrow">
+					<td class="label">
+						Just Java
+					</td>
+					<td>
+						Regular house blend, decaffeinated coffee, or flavor of the day.<br>
+						Endless Cup $2.00
+					</td>
+				</tr>
+				<tr>
+					<td class="label">
+						Cafe au Lait
+					</td>
+					<td>
+						House blended coffee infused into a smooth, steamed milk.<br>
+						Small $2.00, Medium $4.00, Large $6.00
+					</td>
+				</tr>
+				<tr class="altrow">
+					<td class="label">
+						Iced Cappuccino
+					</td>
+					<td>
+						Sweetened espresso blended with icy-cold mil and served in a chilled glass. $4.75
+					</td>
+				</tr>
+			</table>
+
+			<h2>Music</h2>
+
+			<p>Local musicians play every Friday and Saturday nights. Sunday night is open mic night.</p>
+
+			<h2>Location</h2>
+			<p>JavaJam is located at<br>
+			8544 University City Blvd<br>
+			Charlotte, NC 28213.<br>
+			See <a id="locationlink" href="https://maps.google.com/">Google Maps</a> for directions.</p>
+			
+		</main>
+
+		<footer>
+			<p>Copyright © JavaJam Coffee House<br>
+			manager@javajam.com</p>
+			<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+		</footer>
+
+	</body>
+</html>

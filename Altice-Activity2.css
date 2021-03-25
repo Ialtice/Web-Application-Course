@@ -1,0 +1,56 @@
+/*ITIS 3135 Activity 2 css file*/
+
+/*styling for the table goes here*/
+caption
+{
+	font-weight: bolder;
+	font-size: x-large;
+	padding-bottom: 15px;
+	justify-self: center;
+}
+body
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+thead
+{
+	background-color: green;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: lightgreen;
+}
+#tyos,#totalestSal{
+	background-color: lightgreen;
+	text-align: right;
+}
+#research,#dev,#market {
+	vertical-align: top;
+}
+#tyos1{
+	font-weight: bold;
+}
+#yos{
+	text-align: right;
+}

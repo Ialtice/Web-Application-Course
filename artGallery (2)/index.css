@@ -1,0 +1,58 @@
+/*Background color of the website , a light blue */
+html {
+    background-color: #8bfcff
+}
+/* Formatting for the navigation bar*/
+.navBar{
+    width:100%;
+    justify-content: center;
+}
+.navBar ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: #333;
+    overflow: auto;
+}
+.navBar li{
+    display: inline-block;
+}
+.navBar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+/* Change website title size */
+h1{
+    font-size:48px;
+}
+/*Put the image to the right of the paragraph*/
+.right{
+    float: right;
+}
+/* Put the image to the left of the paragraph*/
+.left{
+    float: left;
+}
+/* Make all images 50% of width of the page */
+img{
+    width:50%;
+}
+/* Make Id awards img have a better top margin and size for the home page*/
+#awards{
+    width:40%;
+    margin-top: 20px;
+}
+.bx-wrapper{
+    padding: 30px !important;
+}
+.bx-wrapper .bx-caption {
+    padding-bottom: 10px !important;
+}
+.bx-wrapper img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important;
+    height: auto !important;
+}
+

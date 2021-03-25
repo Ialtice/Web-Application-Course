@@ -1,0 +1,108 @@
+/*Background color of the website , a light blue */
+html {
+    background-image: linear-gradient( lightskyblue, #9edae0);
+}
+/* Formatting for the navigation bar*/
+.navBar{
+    width:100%;
+    justify-content: center;
+
+    border-style: ridge;
+}
+.navBar ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: #333;
+    overflow: auto;
+}
+.navBar li{
+    display: inline-block;
+}
+.navBar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+/* Change website title size,align, and border */
+h1{
+    text-align: center;
+    font-size:48px;
+    border: 10px solid darkblue ;
+    width:99%;
+}
+/*Put the image to the right of the paragraph*/
+.right{
+    float: right;
+}
+/* Put the image to the left of the paragraph*/
+.left{
+    float: left;
+}
+/* Make all images 50% of width of the page */
+img{
+    width:50%;
+}
+/* Make Id awards img have a better top margin and size for the home page*/
+#awards{
+    width:40%;
+    margin-top: 20px;
+}
+/* change bx wrapper plugin css from default, includes better padding , alignment*/
+.bx-wrapper{
+    padding: 30px !important;
+
+}
+.bx-wrapper .bx-caption {
+    padding-bottom: 10px !important;
+}
+.bx-wrapper img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important;
+    height: auto !important;
+}
+/* change slide show size to better fit the art gallery page */
+#gallery1{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* formatting for footer to be blue, white text, align center*/
+footer{
+    width: 100%;
+}
+.footer{
+    background: darkblue;
+    color: white;
+    text-align: center;
+
+}
+.footer a{
+    color: white;
+}
+/* Add outlines/borders to different parts of the webpages along with better padding and alignment*/
+#aboutME{
+    outline: none;
+}
+p{
+    padding:5px;
+    outline: groove 2px;
+}
+#hire{
+    border:double darkblue 3px;
+    background-color: gainsboro;
+    padding: 10px
+}
+#summary{
+    width: 80%;
+    height: 300px;
+}
+#studio{
+    width: 100%;
+}
+/* change color of background for opened tabs on skill set page*/
+.ui-widget-content{
+    background: lightgray;
+}
